@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VeriFairy Terms of Use">
+  <title>VeriFairy Terms of Use</title>
+
+  <style>
+    :root {
+      --bg: #10111a;
+      --panel: #191b2a;
+      --border: #30354a;
+      --text: #f4f1ff;
+      --muted: #bcb6cf;
+      --accent: #caa6ff;
+      --accent-dark: #33254d;
+      --link: #9ed0ff;
+      --max-width: 880px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top left, #2c1e4d 0%, transparent 34%), var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(16, 17, 26, 0.88);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav, main, footer {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .nav {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .brand span { color: var(--accent); }
+
+    nav {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover, nav a[aria-current="page"] { color: var(--accent); }
+
+    main { padding: 54px 0 64px; }
+
+    .hero {
+      padding: 30px;
+      background: linear-gradient(135deg, rgba(202, 166, 255, 0.16), rgba(158, 208, 255, 0.08));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      margin-bottom: 28px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+    }
+
+    .effective-date {
+      margin: 14px 0 0;
+      color: var(--muted);
+    }
+
+    section {
+      margin-top: 26px;
+      padding: 26px 28px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+      line-height: 1.25;
+    }
+
+    p, li { color: var(--muted); }
+
+    p { margin: 0 0 14px; }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+    }
+
+    li + li { margin-top: 8px; }
+
+    strong { color: var(--text); }
+
+    a { color: var(--link); }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+      padding: 14px 16px;
+      background: var(--accent-dark);
+      border-radius: 8px;
+      color: var(--text);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0 36px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 560px) {
+      .nav {
+        padding: 16px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      main { padding-top: 32px; }
+
+      .hero, section { padding: 22px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html">Veri<span>Fairy</span></a>
+
+      <nav aria-label="Legal pages">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html" aria-current="page">Terms of Use</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p class="eyebrow">VeriFairy legal</p>
+      <h1>Terms of Use</h1>
+      <p class="effective-date"><strong>Effective date:</strong> August 27, 2026</p>
+    </div>
+
+    <section>
+      <h2>1. Agreement to These Terms</h2>
+      <p>
+        By inviting, accessing, or using VeriFairy, you agree to these Terms of
+        Use. If you do not agree, do not use VeriFairy.
+      </p>
+      <p>
+        If you use VeriFairy on behalf of a Discord server as an owner,
+        administrator, or moderator, you represent that you have authority to
+        enable and manage VeriFairy for that server.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. What VeriFairy Does</h2>
+      <p>
+        VeriFairy helps participating Discord servers manage access to designated
+        or age-restricted areas. It connects a Discord account to a verification
+        outcome provided by a third-party verification provider selected for the
+        verification session.
+      </p>
+      <p>
+        VeriFairy does not itself inspect identity documents or make legal
+        determinations about a person's age. The verification provider selected
+        for a verification session performs its own verification process according
+        to its own policies.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Eligibility</h2>
+      <p>You may use VeriFairy only if:</p>
+
+      <ul>
+        <li>You meet Discord's minimum age requirement and any higher age requirement that applies in your location</li>
+        <li>You are legally allowed to use Discord, the relevant server, and the verification provider</li>
+        <li>You comply with these Terms, Discord's terms and policies, and applicable law</li>
+        <li>You do not attempt to bypass age, role, access, or server restrictions</li>
+      </ul>
+
+      <p>
+        Server owners and moderators are responsible for their server's content,
+        rules, age-restricted areas, and compliance obligations.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Your Responsibilities</h2>
+      <p>When using VeriFairy, you agree not to:</p>
+
+      <ul>
+        <li>Provide false, misleading, stolen, or unauthorized information during verification</li>
+        <li>Use another person's Discord account or verification result without permission</li>
+        <li>Attempt to bypass, tamper with, overload, exploit, reverse engineer, or interfere with VeriFairy or its verification flow</li>
+        <li>Forge, replay, modify, or misuse verification links, webhooks, provider results, Discord roles, or access controls</li>
+        <li>Send passwords, payment information, identity documents, or other sensitive information directly to VeriFairy through Discord</li>
+        <li>Use VeriFairy for unlawful, harmful, abusive, fraudulent, or deceptive activity</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Verification and Discord Roles</h2>
+      <p>
+        A successful verification outcome may allow VeriFairy to assign a Discord
+        role configured by the server. A role assignment does not guarantee access
+        to any particular content, server, channel, event, product, or service.
+      </p>
+      <p>
+        Server owners and moderators may set their own rules, remove roles, deny
+        access, or change server settings at any time. VeriFairy is not responsible
+        for independent server-moderation or access decisions.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Third-Party Services</h2>
+      <p>
+        VeriFairy relies on Discord and may rely on third-party verification,
+        hosting, security, and infrastructure services. Your use of those services
+        is governed by their own terms, policies, availability, and technical limits.
+      </p>
+      <p>
+        VeriFairy is not responsible for a third party's verification decisions,
+        outages, availability, privacy practices, security practices, policy
+        changes, or terms.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Service Availability</h2>
+      <div class="notice">
+        VeriFairy is provided on an “as is” and “as available” basis.
+      </div>
+
+      <p style="margin-top: 16px;">
+        We may modify, suspend, limit, or discontinue any part of VeriFairy at
+        any time. We do not guarantee uninterrupted, secure, error-free, or
+        universally available service.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Suspension and Termination</h2>
+      <p>
+        We may suspend, restrict, or block access to VeriFairy if we reasonably
+        believe that a user, server, or administrator has violated these Terms,
+        attempted abuse or fraud, created a security risk, or used the service in
+        a way that could harm VeriFairy, Discord users, or others.
+      </p>
+      <p>
+        A Discord server owner or administrator may remove VeriFairy from their
+        server at any time.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Disclaimer</h2>
+      <p>
+        VeriFairy is a technical access-management tool. It is not legal advice,
+        a government service, a law-enforcement service, or a guarantee that any
+        person is legally eligible for a particular activity, product, service,
+        event, or content.
+      </p>
+      <p>
+        Server operators remain responsible for their own community rules,
+        moderation decisions, age-gating choices, content, and legal compliance.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Limitation of Liability</h2>
+      <p>
+        To the maximum extent allowed by applicable law, VeriFairy and its
+        operator will not be liable for indirect, incidental, special,
+        consequential, exemplary, or punitive damages, including loss of data,
+        lost access, lost profits, or damages arising from the use of—or inability
+        to use—VeriFairy or a third-party service.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Privacy</h2>
+      <p>
+        Your use of VeriFairy is also governed by the
+        <a href="privacy.html">VeriFairy Privacy Policy</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Changes to These Terms</h2>
+      <p>
+        We may update these Terms when VeriFairy changes. Updated Terms will be
+        posted on this page with a revised effective date. Continued use of
+        VeriFairy after an update means that you accept the revised Terms to the
+        extent permitted by law.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Contact</h2>
+      <p>For questions about these Terms, contact:</p>
+
+      <p>
+        <strong>VeriFairy</strong><br>
+        <a href="mailto:verifairysupport@gmail.com">verifairysupport@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> VeriFairy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

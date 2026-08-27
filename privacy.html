@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VeriFairy Privacy Policy">
+  <title>VeriFairy Privacy Policy</title>
+
+  <style>
+    :root {
+      --bg: #10111a;
+      --panel: #191b2a;
+      --border: #30354a;
+      --text: #f4f1ff;
+      --muted: #bcb6cf;
+      --accent: #caa6ff;
+      --accent-dark: #33254d;
+      --link: #9ed0ff;
+      --max-width: 880px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top left, #2c1e4d 0%, transparent 34%), var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(16, 17, 26, 0.88);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav, main, footer {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .nav {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .brand span { color: var(--accent); }
+
+    nav {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover, nav a[aria-current="page"] { color: var(--accent); }
+
+    main { padding: 54px 0 64px; }
+
+    .hero {
+      padding: 30px;
+      background: linear-gradient(135deg, rgba(202, 166, 255, 0.16), rgba(158, 208, 255, 0.08));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      margin-bottom: 28px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+    }
+
+    .effective-date {
+      margin: 14px 0 0;
+      color: var(--muted);
+    }
+
+    section {
+      margin-top: 26px;
+      padding: 26px 28px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+      line-height: 1.25;
+    }
+
+    p, li { color: var(--muted); }
+
+    p { margin: 0 0 14px; }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+    }
+
+    li + li { margin-top: 8px; }
+
+    strong { color: var(--text); }
+
+    a { color: var(--link); }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+      padding: 14px 16px;
+      background: var(--accent-dark);
+      border-radius: 8px;
+      color: var(--text);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0 36px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 560px) {
+      .nav {
+        padding: 16px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      main { padding-top: 32px; }
+
+      .hero, section { padding: 22px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html">Veri<span>Fairy</span></a>
+
+      <nav aria-label="Legal pages">
+        <a href="privacy.html" aria-current="page">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p class="eyebrow">VeriFairy legal</p>
+      <h1>Privacy Policy</h1>
+      <p class="effective-date"><strong>Effective date:</strong> August 27, 2026</p>
+    </div>
+
+    <section>
+      <h2>1. Overview</h2>
+      <p>
+        VeriFairy is a Discord application that helps participating Discord
+        servers manage access to age-restricted areas through user-selected
+        third-party verification providers.
+      </p>
+      <p>
+        This Privacy Policy explains the limited information VeriFairy processes,
+        why it is processed, how it is used, and how to contact us about privacy
+        questions or requests.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Information VeriFairy Processes</h2>
+      <p>
+        To start, complete, and manage a verification request, VeriFairy may
+        process limited operational information:
+      </p>
+      <ul>
+        <li>Your Discord user ID</li>
+        <li>The Discord server or guild ID where verification was requested</li>
+        <li>The Discord role connected to verification access</li>
+        <li>A provider-generated verification session or reference ID</li>
+        <li>Verification status, such as pending, verified, denied, expired, or cancelled</li>
+        <li>Dates and times related to the verification request and result</li>
+        <li>Limited technical, security, and error logs needed to operate and protect the service</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Information VeriFairy Does Not Collect</h2>
+      <div class="notice">
+        VeriFairy does not ask you to send identity documents or sensitive
+        verification materials through Discord.
+      </div>
+
+      <p style="margin-top: 16px;">
+        VeriFairy does not intentionally collect, receive, or store:
+      </p>
+
+      <ul>
+        <li>Government-issued identity documents</li>
+        <li>Driver's license, passport, or state ID numbers</li>
+        <li>Document images or scans</li>
+        <li>Selfies, biometric data, or liveness-check materials</li>
+        <li>Date of birth</li>
+        <li>Social Security numbers</li>
+        <li>Payment-card or banking information</li>
+      </ul>
+
+      <p>
+        If a server uses an external verification provider, any documents or
+        verification materials are submitted directly on that provider's website,
+        not to VeriFairy through Discord.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. How Information Is Used</h2>
+      <p>VeriFairy uses the limited information above to:</p>
+      <ul>
+        <li>Create and track a verification request initiated through the bot</li>
+        <li>Match a provider result to the correct Discord account and server</li>
+        <li>Grant, deny, revoke, or manage the applicable Discord role</li>
+        <li>Prevent abuse, duplicate requests, and unauthorized role assignment</li>
+        <li>Troubleshoot errors, protect the service, and respond to support requests</li>
+      </ul>
+
+      <p>
+        VeriFairy does not sell user information and does not use verification
+        information for advertising, behavioral profiling, or data brokerage.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Third-Party Services</h2>
+      <p>VeriFairy may rely on third-party services, including:</p>
+
+      <ul>
+        <li>
+          <strong>Discord:</strong> Provides the platform, Discord account
+          functionality, server functionality, and role-management features.
+        </li>
+        <li>
+          <strong>User-selected verification providers:</strong> A user may choose
+          an available third-party provider to complete age verification on that
+          provider's own website or service.
+        </li>
+        <li>
+          <strong>Hosting and infrastructure providers:</strong> VeriFairy may use
+          third-party providers for website hosting, application hosting, storage,
+          security, and related infrastructure when necessary to operate the service.
+        </li>
+      </ul>
+
+      <p>
+        When you open a verification link, the provider selected for that session
+        controls its own verification process. Its terms and privacy policy govern
+        the information you submit to that provider.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. When Information Is Shared</h2>
+      <p>VeriFairy shares limited information only when needed to operate the service:</p>
+
+      <ul>
+        <li>With Discord, to operate the bot and assign the appropriate role</li>
+        <li>With the verification provider selected for your verification session, only as needed to create and receive that session's outcome</li>
+        <li>With hosting or security providers necessary to operate the service</li>
+        <li>When required by applicable law, legal process, or a legitimate security need</li>
+      </ul>
+
+      <p>
+        VeriFairy does not sell, rent, or share user information with advertisers
+        or data brokers.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Data Retention</h2>
+      <p>
+        VeriFairy retains limited verification and operational records only for as
+        long as reasonably necessary to provide verification access, operate and
+        secure the application, prevent abuse, resolve support requests, and meet
+        legal obligations.
+      </p>
+      <p>
+        VeriFairy is currently under development. Specific automated retention
+        and deletion periods may be added as the application develops. If VeriFairy
+        makes a material change to its retention practices, this Privacy Policy
+        will be updated before that change takes effect.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Security</h2>
+      <p>
+        VeriFairy uses reasonable safeguards designed to protect the limited
+        operational information it processes. These may include restricted access,
+        environment-variable secret management, provider-webhook signature
+        verification, and data-minimization practices.
+      </p>
+      <p>
+        No online service can guarantee absolute security. Do not send identity
+        documents, passwords, payment details, or other sensitive information to
+        VeriFairy through Discord.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Your Requests and Choices</h2>
+      <p>
+        You may contact us to ask about the limited operational information
+        associated with your Discord account or request deletion where applicable.
+        Requests may be limited where retention is necessary for security, fraud
+        prevention, legal obligations, or server administration.
+      </p>
+      <p>
+        To make a privacy or deletion request, email
+        <a href="mailto:verifairysupport@gmail.com">verifairysupport@gmail.com</a>.
+      </p>
+      <p>
+        A server administrator may remove your verified role at any time.
+        Removing a role does not automatically delete all operational records.
+        Contact us if you want to request deletion.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Eligibility</h2>
+      <p>
+        VeriFairy is not intended for people who do not meet Discord's minimum
+        age requirement or the minimum age required for the application in their
+        location. Do not use VeriFairy if you are not eligible to use Discord,
+        the server, or the selected verification provider.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy when VeriFairy or its data practices
+        change. The revised version will be posted on this page with an updated
+        effective date.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Contact</h2>
+      <p>
+        For privacy questions, requests, or concerns, contact:
+      </p>
+      <p>
+        <strong>VeriFairy</strong><br>
+        <a href="mailto:verifairysupport@gmail.com">verifairysupport@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> VeriFairy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
